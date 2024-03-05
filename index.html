@@ -3,101 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Leapfrog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="headintro.css">
 </head>
 <body>
      <header>
-        <div class="header">
-            <div class="container">
-                <a href="#"><img src="https://www.lftechnology.com/images/lf-logo.svg" alt="logo" width="120" height="40"></a>
-                <nav>
+        <div class="header">    
+                <!-- <nav>
                     <ul id="menu">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Services</a></li>
                         <li><a href="#">Join Leapfrog</a></li>
                         <li><a href="#">Blog</a></li>
-                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">About Us</a></li> -->
                         <!-- <li><b>BUILT WITH US</b></li> -->
-                        <li><div class="box"><p><b>BUILT WITH US</b></p></div></li>
+                        <!-- <li><div class="box"><p><b>BUILT WITH US</b></p></div></li>
                     </ul>
+                </nav> -->
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container">
+                      <div><a class="navbar-brand" href="#">
+                        <img src="https://www.lftechnology.com/images/lf-logo.svg" alt="logo" width="120" height="40">
+                      </a></div>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item px-3">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          
+                          <li class="nav-item px-3">
+                            <a class="nav-link" href="#">Services</a>
+                          </li>
+                          <li class="nav-item px-3">
+                            <a class="nav-link" href="#">Join Leapfrog</a>
+                          </li>
+                          <li class="nav-item px-3">
+                            <a class="nav-link" href="#">Blog</a>
+                          </li>
+                          <li class="nav-item px-3">
+                            <a class="nav-link" href="#">About Us</a>
+                          </li>                         
+                          <li class="nav-item ps-3">
+                            <div class="box"><p class="mb-0"><b>BUILT WITH US</b></p></div>                            
+                          </li>
+                        </ul> 
+                      </div>
+                    </div>
                 </nav>
-            </div>
         </div>
     </header>
     <section id="intro">
         <div class="container">
-            <div class="innovate" id="help">
-            <h1>Innovate <br>better,<br><span> faster.</span></h1>
-            <p>
-                We help businesses imagine and create the digital <br>
-                experiences of tomorrow. We succeed together, through <br>
-                the fusion of startup agility, enterprise standards, and <br>
-                 world-class engineering.
-            </p>
-            <a href="#" class="hfive" id="built">BUILT WITH US<i class="fa-solid fa-arrow-right"></i></a>
-            <h5 class="hfive" id="join">JOIN US<i class="fa-solid fa-arrow-right"></i></h5>
-            </div>
-            <div class="innovate">
-                <iframe src="https://player.vimeo.com/video/900731959?&autoplay=1&controls=0&muted=1&loop=1&title=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479" frameborder="0"></iframe>
-            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="innovate" id="help">
+                    <h1>Innovate <br>better,<br><span class="faster"> faster.</span></h1>
+                    <p>
+                        We help businesses imagine and create the digital <br>
+                        experiences of tomorrow. We succeed together, through <br>
+                        the fusion of startup agility, enterprise standards, and <br>
+                         world-class engineering.
+                    </p>
+                    <a href="#" class="hfive" id="built">BUILT WITH US<i class="fa-solid fa-arrow-right"></i></a>
+                    <h5 class="hfive" id="join">JOIN US<i class="fa-solid fa-arrow-right"></i></h5>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="innovate">
+                        <iframe src="https://player.vimeo.com/video/900731959?&autoplay=1&controls=0&muted=1&loop=1&title=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>    
         </div>
     </section>
     <section id="company">
         <div class="container">
-            <h2>Trusted by 150+ enterprises, scale-ups and startups.</h2>
+            <h2>Trusted by 150 <span class="plus">+</span> enterprises, scale-ups and startups.</h2>
             <p>At Leapfrog, we have had the privilege of partnering with some of the most innovative and forward-thinking companies in the tech industry. From big companies to startups that hope to be big one day, they trust us with the expertise and support they need to bring their ideas to life.</p>
-                <div class="row">
-                    <img class="img-fluid" src="microsoft.webp" alt="microsoft">
-                    <img class="img-fluid" src="laudio.webp" alt="laudio">
-                    <img class="img-fluid" src="keller.webp" alt="keller">
-                    <img class="img-fluid" src="memora.webp" alt="memora">
-                </div>
-                <div class="row">
-                    <img class="img-fluid" src="pingidentity.webp" alt="pingidentity">
-                    <img class="img-fluid" src="ucsf.webp" alt="ucsf" id="ucsf">
-                    <img class="img-fluid" src="phil.webp" alt="phil">
-                    <img class="img-fluid" src="macmilan.webp" alt="macmilan">
-                </div>
+            <div class="row">
+                    <div class="col-md-3"><img class="img-fluid" src="microsoft.webp" alt="microsoft"></div>
+                    <div class="col-md-3"><img class="img-fluid" src="laudio.webp" alt="laudio"></div>
+                    <div class="col-md-3"><img class="img-fluid" src="keller.webp" alt="keller"></div>
+                    <div class="col-md-3"><img class="img-fluid" src="memora.webp" alt="memora"></div>    
             </div>
+            <div class="row">
+                    <div class="col-md-3"><img class="img-fluid" src="pingidentity.webp" alt="pingidentity"></div>
+                    <div class="col-md-3"><img class="img-fluid" src="ucsf.webp" alt="ucsf" id="ucsf"></div>
+                    <div class="col-md-3"><img class="img-fluid" src="phil.webp" alt="phil"></div>
+                    <div class="col-md-3"><img class="img-fluid" src="macmilan.webp" alt="macmilan"></div>
+            </div>
+        </div>
     </section>
     <section id="biography">
-        <div class="container">
-            <img src="image (2).webp" alt="image" width="300px" height="auto">
-            <div id="Quotation">
-                <img src="https://www.lftechnology.com/images/icons/bxs-quote-alt-left.svg" alt="">
+        <div class="container d-md-flex">
+            <img class="img-fluid" src="image (2).webp" alt="image">
+            <div class="Quotation ms-md-5">
+                <img class="img-fluid" src="https://www.lftechnology.com/images/icons/bxs-quote-alt-left.svg" alt="">
                 <h3><span class="span">
                 It would have taken months to build the product team that we </span>inherited overnight <span class="span">with Leapfrog.</span> They’re built for startup speed, <span class="span">
                 and they have consistently delivered a well-engineered product for us.</span>
                 </h3>
                 <p>Russ Richmond, MD</p>
                 <small>CEO of Laudio, recognized in KLAS 2022 Emerging Solutions</small>
-                <img src="laudio.webp" alt="laudio" id="laudio">
+                <img src="laudio.webp" alt="laudio" class="img-fluid" id="laudio">
             </div>
         </div>
     </section>
     <section id="middle-tabs">
         <div class="container">
-        <ul>
+        <ul class="mb-0">
             <li>
-                <a href="#" class="active" data-target="section-1" ><img src="https://www.lftechnology.com/images/icons/product-engineering.svg" class="tab-image" alt="" >
-                <p>Products & Technology</p></a>
+                <a href="#" class="active" data-target="section-1" ><img src="https://www.lftechnology.com/images/icons/product-engineering.svg" class="tab-image img-fluid" alt="" >
+                <p class="d-none d-md-block">Products & Technology</p></a>
             </li>
             <li>
-                <a href="#" data-target="section-2"><img src="https://www.lftechnology.com/images/icons/teams.svg" class="tab-image" alt="" >
-                <p>Team Augmentation</p></a>
+                <a href="#" data-target="section-2"><img src="https://www.lftechnology.com/images/icons/teams.svg" class="tab-image img-fluid" alt="" >
+                <p class="d-none d-md-block">Team Augmentation</p></a>
             </li>
             <li>
-                <a href="#" data-target="section-3"><img src="https://www.lftechnology.com/images/icons/design.svg" class="tab-image" alt="" >
-                Design</a>
+                <a href="#" data-target="section-3"><img src="https://www.lftechnology.com/images/icons/design.svg" class="tab-image img-fluid" alt="" >
+                <p class="d-none d-md-block">Design</p></a>
             </li>
             <li>
-                <a href="#" data-target="section-4"><img src="https://www.lftechnology.com/images/icons/data-ai.svg" class="tab-image" alt="" >
-                <p>Data & AI</p></a>
+                <a href="#" data-target="section-4"><img src="https://www.lftechnology.com/images/icons/data-ai.svg" class="tab-image img-fluid" alt="" >
+                <p class="d-none d-md-block">Data & AI</p></a>
             </li>
             <li>
-                <a href="#" data-target="section-5"><img src="https://www.lftechnology.com/images/icons/devops.svg" class="tab-image" alt="" >
-                <p>DevOps & Cloud</p></a>
+                <a href="#" data-target="section-5"><img src="https://www.lftechnology.com/images/icons/devops.svg" class="tab-image img-fluid" alt="" >
+                <p class="d-none d-md-block">DevOps & Cloud</p></a>
             </li>
         </ul>
         </div>
@@ -188,23 +225,23 @@
         <div class="container">
             <div class="casestudies-text">
                 <p><b>CASE STUDIES</b></p>
-                <h2>We have <span class="green">a proven track record</span> of ambitious products in complex environments.</h2>
-                <p class="casestudies-subheading">Since 2010, we've had over 100 fast-growing companies build apps, data-driven products, and cloud solutions that make an impact.</p>
+                <h3>We have <span class="record">a proven track record</span> of ambitious products in complex environments.</h3>
+                <p class="casestudies-subheading mb-5">Since 2010, we've had over 100 fast-growing companies build apps, data-driven products, and cloud solutions that make an impact.</p>
             </div>
-            <div class="casestudiescard">
-                <div class="box">
-                    <div><img class="casestudiescard-topicimg" src="https://www.lftechnology.com/_next/image?url=https%3A%2F%2Fstrapi.lftechnology.com%2Fuploads%2Fsignetic_case_study_thumbnail_34e0d481e5.jpg&w=1920&q=75" alt=""></div>
+            <div class="casestudies-card row">
+                <div class="col-md-6">
+                    <div><img class="casestudiescard-topicimg img-fluid" src="https://www.lftechnology.com/_next/image?url=https%3A%2F%2Fstrapi.lftechnology.com%2Fuploads%2Fsignetic_case_study_thumbnail_34e0d481e5.jpg&w=1920&q=75" alt=""></div>
                     <div class="casestudiescard-text">
-                        <img class="casestudiescard-logoimg" src="https://www.lftechnology.com/_next/image?url=https%3A%2F%2Fstrapi.lftechnology.com%2Fuploads%2Flogo_signetic_0ca3d23a1e.png&w=96&q=75" alt="">
+                        <img class="casestudiescard-logoimg img-fluid" src="https://www.lftechnology.com/_next/image?url=https%3A%2F%2Fstrapi.lftechnology.com%2Fuploads%2Flogo_signetic_0ca3d23a1e.png&w=96&q=75" alt="">
                         <h3>We helped City of Seattle administer 1 million COVID doses to reach 70% full vaccination</h3>
                         <p class="casestudiescard-discription">We beat Salesforce and Microsoft to be selected by City of Seattle as the end-to-end vaccination solution that made Seattle become the 1st large US city to reach 70% full vaccinations. This made up King County’s 82% doses.</p>
                         <a class="readstory" href="#">READ THE STORY <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
-                <div class="box">
-                    <div><img class="casestudiescard-topicimg" src="https://www.lftechnology.com/_next/image?url=https%3A%2F%2Fstrapi.lftechnology.com%2Fuploads%2Flaudio_case_study_thumbnail_2be7b52477.jpg&w=1920&q=75" alt=""></div>
+                <div class="col-md-6">
+                    <div><img class="casestudiescard-topicimg img-fluid" src="https://www.lftechnology.com/_next/image?url=https%3A%2F%2Fstrapi.lftechnology.com%2Fuploads%2Flaudio_case_study_thumbnail_2be7b52477.jpg&w=1920&q=75" alt=""></div>
                     <div class="casestudiescard-text">
-                        <img class="casestudiescard-logoimg" src="https://www.lftechnology.com/_next/image?url=https%3A%2F%2Fstrapi.lftechnology.com%2Fuploads%2Flaudio_logo_43d6c58ebb.png&w=96&q=75" alt="">
+                        <img class="casestudiescard-logoimg img-fluid" src="https://www.lftechnology.com/_next/image?url=https%3A%2F%2Fstrapi.lftechnology.com%2Fuploads%2Flaudio_logo_43d6c58ebb.png&w=96&q=75" alt="">
                         <h3>We are leveraging AI and ML to help solve staff burnout at 10+ large hospitals</h3>
                         <p class="casestudiescard-discription">We build a staff relationship management platform to achieve the vision to help frontline managers influence stronger staff engagement, satisfaction, and retention.&nbsp;</p>
                         <a class="readstory" href="#">READ THE STORY <i class="fa-solid fa-arrow-right"></i></a>
@@ -214,11 +251,12 @@
         </div>
     </section>
     <footer>
-        <div class="container footer">
+        <div class="container footer d-md-flex justify-content-between">
             <h4>Copyright 2024, Leapfrog Technology Inc.</h4>
             <h4>Designed by Man Bahadur</h4>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="headintro.js"></script>
     <script src="https://kit.fontawesome.com/b3bbdfc294.js" crossorigin="anonymous"></script>

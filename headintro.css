@@ -6,57 +6,26 @@
 body{
     font-family: arial;
 }
-
-#menu li{
-    display: inline-block;
-}
-nav{
-    float: right;
-}
-.container{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-#menu{
-    list-style-type: none;
-}
 .box{
+    background-color: green;
     color: white;
     display: block;
-    /* height:100%; */
-    /* width: auto; */
-    /* height: 15px; */
-    padding: 15px 20px;
-    /* background: green; */
+    padding: 10px 20px;
+    color: white;
+    
 }
-/* .box:hover{
-    background-color: black;
-} */
-#menu li a{
-    color:#111111;
-    padding: 10px 30px;
-    text-decoration: none;
-}
-header{
+.header{
     width: 100%;
     background-color: white;
     position: fixed;
-    padding: 30px 0px;
-    /* padding-top: 30px; */
     box-shadow: 0px 2px 5px 0 rgba(176 176 176 43%);
     z-index: 2;
 }
-#menu li a:hover{
+#nav-item a:hover{
     color: green;
     cursor: pointer;
 }
-h1{
-    font-size: 80px;
-    margin-bottom: 15px;
-    margin-top: 40px;
-}
-h1 span{
+.faster{
     color: green;
 }
 #intro p{
@@ -68,54 +37,18 @@ h1 span{
     font-weight: 900;
     margin-top: 30px;
     font-size: medium;
-}
-#built{
-    color: green;
     text-decoration: none;
 }
-/* #intro{
-    margin-top: 30px;
-} */
+
 #intro iframe{
+    height: 350px;
+    max-width: 100%;
     /* margin-top: 90px; */
-    height: 490px;
-    width: 100%;
     border-bottom-left-radius: 120px;
 }
-.innovate{
-    display: inline-block;
-    width: 50%;
-}
-.innovate{
-    float: left;
-}
-
 section{
     padding-top: 60px;
     padding-bottom: 60px;
-}
-#company h2{
-    font-size: 60px;
-    line-height: 69px;
-    font-weight: 700;
-    text-align: center;
-}
-#company p{
-    width: 70%;
-    margin: 20px auto;
-    line-height: 26px;
-}
-.row{
-    min-width: 25%;
-    padding: 1rem 1.25rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-#Quotation{
-    float: right;
-    width: 60%;
 }
 #Quotation h3{
     font-size: 1.75rem;
@@ -141,25 +74,18 @@ section{
     position: sticky;
     background-color: #fff;
     z-index: 2;
-    top: 6rem;
+    top: 3.5rem;
     padding-top: 0;
+    padding-bottom: 0;
     /* top: 13.125rem; */
 }
 #middle-tabs ul{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
-    /* display: flex; */
-    /* width: 25%; */
-    /* justify-content: space-between; */
 
-    
-    /* align-items: center; */
 }
 #middle-tabs ul li{
     list-style-type: none;
-    
-    /* padding: 10px; */
-
 }
 #middle-tabs ul li a{
     padding: 20px 10px;
@@ -212,51 +138,40 @@ section{
     display: block;
 }
 #middletabs-para{
-    width: 50%;
+    width: 100%;
     position: sticky;
 }
 .tab-section img{
     max-width: 100%;
     height: auto;
 }
-/* .tab-image{
-    color: #111111;
-} */
-/* #middle-tabs ul li img{
-    color: #111111;
-} */
 .casestudies{
     background-color: #f7f8fb;
 }
 .casestudiescard{
     background-color: white;
-    display: flex;
-    justify-content: space-between;
-}
-.box{
-    color: #111111;
 }
 
 .casestudiescard-topicimg{
     top: 0;
     width: 100%;
     height: 350px;
-    object-fit: cover;
+    object-fit: contain;
 }
-.green{
+.record{
     color: green;
 }
-.casestudies-text h2{
-    font-size: 3rem;
-    margin: 1rem;
+.casestudies-text h3{
+    font-weight: 700;
+    font-size: 2rem;
 }
 .casestudies-subheading{
     font-size: 24px;
     line-height: 32px;
 }
 .casestudiescard-logoimg, .casestudiescard-discription{
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 .casestudiescard-text{
     margin-left: 25px;
@@ -274,9 +189,9 @@ footer{
     background-color: black;
     padding: 10px;
 }
-.footer{
-    
+.footer{   
     color: white;
-    display: flex;
-    justify-content: space-between;
+}
+#navbarSupportedContent{
+    padding-left: 20%;
 }
